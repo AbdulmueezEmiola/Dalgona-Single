@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/f2514eb0-6a05-4d10-9853-89c0ff567c5b>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 26cbfc3b-1472-4d18-a2f1-e73484073ab7
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 26cbfc3b-1472-4d18-a2f1-e73484073ab7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 5f8ecebe-94c5-4341-a536-1eced71ee9ee
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/5f8ecebe-94c5-4341-a536-1eced71ee9ee>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 94683f70-e545-4c8e-8d94-bc207541f413
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    displaySeconds: false
+    livesRemainingText: false
+    popupRoot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - popupRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      livesRemainingText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      displaySeconds: 1.200000
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,62 @@
+- !<AssetImportMetadata/27c84429-efa0-488b-860f-ce2d656ce54f>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 430b4d00-ea1b-4ccd-8bd2-2abc49adff35
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 430b4d00-ea1b-4ccd-8bd2-2abc49adff35
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> c84d86bb-5eb2-407c-ac9d-7a13c531ac17
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/c84d86bb-5eb2-407c-ac9d-7a13c531ac17>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 75685b28-aea1-48a0-af66-58063d3e0833
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    gameController: false
+    gameOverScreen: false
+    livesText: false
+    scoreText: false
+    shapeController: false
+    shapeFailedPauseSeconds: false
+    shapeFailedPopup: false
+    startingLives: false
+    timeLimitSeconds: false
+    timerController: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - gameController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      shapeController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      timerController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      gameOverScreen: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      shapeFailedPopup: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      livesText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      scoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      startingLives: 3
+      timeLimitSeconds: !<float> 30.000000
+      shapeFailedPauseSeconds: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}

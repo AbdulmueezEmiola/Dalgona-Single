@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/9b5fbc76-5867-4762-abbc-1b97e27c7b53>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 193db96b-124d-4809-965a-23c2956c974c
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 193db96b-124d-4809-965a-23c2956c974c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 6f63e26a-4f58-473a-aa09-1d36bb9fc7c8
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/6f63e26a-4f58-473a-aa09-1d36bb9fc7c8>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: d1a56d70-1bbd-485f-91b7-9fe25313f70e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    bestScoreText: false
+    finalScoreText: false
+    gameOverRoot: false
+    newBestBadge: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - gameOverRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      finalScoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      bestScoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      newBestBadge: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/8f277a13-4f70-44f3-92db-74cd19051a3b>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> f572fb15-50c6-47a1-8099-7493cad65f76
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> f572fb15-50c6-47a1-8099-7493cad65f76
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 4c0212d3-bfe2-40b7-86b7-b7ce46a79833
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/4c0212d3-bfe2-40b7-86b7-b7ce46a79833>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 77e293b1-2cf1-42d8-9a5a-361b15353ffa
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    fullScreenTransform: false
+    gameController: false
+    screenTransform: false
+    shapeController: false
+    tipMarker: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - screenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      shapeController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      gameController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      fullScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      tipMarker: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

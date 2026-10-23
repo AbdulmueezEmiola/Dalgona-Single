@@ -1,0 +1,62 @@
+- !<AssetImportMetadata/dbc4166b-6a1d-4189-8cbb-6a36959ac8fb>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 8499e4f9-555e-4ecb-ac04-382a685c33c9
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 8499e4f9-555e-4ecb-ac04-382a685c33c9
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> eafea2a2-184f-4f02-8046-e2c0d17ed9a4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/eafea2a2-184f-4f02-8046-e2c0d17ed9a4>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: d903d86f-d0d9-456d-a040-54bc3fc0be70
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    dotController: false
+    failDebounceSeconds: false
+    failGraceSeconds: false
+    forceStandaloneTest: false
+    lifeLostPopup: false
+    needleCursor: false
+    progressText: false
+    shapeController: false
+    testShapeIndex: false
+    turnController: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - shapeController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      dotController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      needleCursor: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      turnController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      progressText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      failDebounceSeconds: 0.180000
+      failGraceSeconds: !<float> 1.000000
+      lifeLostPopup: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      forceStandaloneTest: false
+      testShapeIndex: -1
+  ScriptTypes:
+    -
+      {}

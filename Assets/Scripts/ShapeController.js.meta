@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/4d0d05fb-d0d0-4c87-8de3-fa2646f74d5f>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 31ee42e7-1d61-47dd-8854-ce663a76f1a5
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 31ee42e7-1d61-47dd-8854-ce663a76f1a5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 8d7a8cab-2c60-456c-944d-9e56cc1b00df
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/8d7a8cab-2c60-456c-944d-9e56cc1b00df>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 87703bbc-fee6-46b0-82c3-0005ac11bf06
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    failToleranceMultiplier: false
+    segmentCount: false
+    shapeObject: false
+    shapeTexturePool: false
+    shapeVerticesPool: false
+    strokeFraction: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - shapeObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      shapeVerticesPool: !<string[]>
+        []
+      shapeTexturePool: !<reference.Texture[]>
+        []
+      segmentCount: 60
+      strokeFraction: 0.027300
+      failToleranceMultiplier: 3.500000
+  ScriptTypes:
+    -
+      {}
