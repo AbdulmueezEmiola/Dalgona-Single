@@ -29,6 +29,7 @@
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
     gameOverScreen: false
+    leaderboardComponent: false
     singlePlayerController: false
   ScriptTypesHidden:
     {}
@@ -41,6 +42,7 @@
   DefaultScriptInputs:
     - singlePlayerController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       gameOverScreen: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      leaderboardComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

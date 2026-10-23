@@ -30,6 +30,7 @@
   ScriptInputsHidden:
     gameController: false
     gameOverScreen: false
+    leaderboardComponent: false
     livesText: false
     scoreText: false
     shapeController: false
@@ -52,6 +53,7 @@
       timerController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       gameOverScreen: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       shapeFailedPopup: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      leaderboardComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       livesText: !<reference.Text> 00000000-0000-0000-0000-000000000000
       scoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
       startingLives: 3

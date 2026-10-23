@@ -14,6 +14,7 @@
 //@input Component.ScriptComponent timerController {"hint":"Optional — omit to play lives-only with no clock (run would then never end on its own)."}
 //@input Component.ScriptComponent gameOverScreen {"hint":"Script on your game-over popup exposing show(finalScore, isNewBest) and hide()."}
 //@input Component.ScriptComponent shapeFailedPopup {"hint":"Optional — script exposing show(), shown briefly when lives run out and the current shape is skipped."}
+//@input Component.ScriptComponent leaderboardComponent {"hint":"Optional — the Leaderboard custom component. Its Side Switcher icon is hidden for the duration of each run so it only surfaces as part of the Game Over flow, not during gameplay."}
 //@input Component.Text livesText
 //@input Component.Text scoreText
 //@input int startingLives = 3
@@ -61,7 +62,7 @@ function updateLivesDisplay() {
 }
 
 function updateScoreDisplay() {
-    if (script.scoreText) script.scoreText.text = "" + score;
+    if (script.scoreText) script.scoreText.text = "🏆 " + score + (score === 1 ? " Shape Traced" : " Shapes Traced");
 }
 
 function startRound() {
@@ -90,6 +91,11 @@ function startGame() {
     shapeBag = [];
     updateLivesDisplay();
     updateScoreDisplay();
+
+    if (script.leaderboardComponent && script.leaderboardComponent.getSideSwitcher) {
+        var sideSwitcher = script.leaderboardComponent.getSideSwitcher();
+        if (sideSwitcher && sideSwitcher.hide) sideSwitcher.hide();
+    }
 
     if (script.timerController) {
         script.timerController.onTimeUp = onTimeUp;

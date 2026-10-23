@@ -31,6 +31,7 @@
     bestScoreText: false
     finalScoreText: false
     gameOverRoot: false
+    leaderboardComponent: false
     newBestBadge: false
   ScriptTypesHidden:
     {}
@@ -45,6 +46,7 @@
       finalScoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
       bestScoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
       newBestBadge: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      leaderboardComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
