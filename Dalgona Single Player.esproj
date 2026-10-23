@@ -4,11 +4,8 @@ studioVersion:
   patch: 0
   build: 26090816
   type: Public
-  buildFlavor: release
-  timestamp: 1788858645000
-  commit: 4ef9c7b3ff9d5e758c3e88120d86b0a608fd9e62
-coreVersion: 372
-clientVersion: 14.16
+coreVersion: 377
+clientVersion: 14.21
 updateCheckpoint: 107
 sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
 metaInfo:
@@ -18,7 +15,7 @@ metaInfo:
     []
   lensName: Dalgona
   lensDescriptors:
-    []
+    - AI_MUTATED
   lensApplicableContext:
     - live_camera
     - reply_camera
@@ -32,6 +29,7 @@ metaInfo:
   platformBundlesEnabled: false
   iconHash: 1e48b21750ac176d9f9f7e76c2c71665
   videoPreviewHash: a96a3236c7de5ac9fa59d90f2f97085d
+  localizationsHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.23.2.26081320
   activationCamera: Front

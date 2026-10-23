@@ -31,7 +31,10 @@
     dotContainer: false
     dotPrefab: false
     dotSizeMultiplier: false
+    fadeInDuration: false
+    pendingDotAlpha: false
     shapeController: false
+    stallSeconds: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -45,6 +48,9 @@
       dotPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
       shapeController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       dotSizeMultiplier: !<float> 2.000000
+      pendingDotAlpha: 0.320000
+      stallSeconds: !<float> 3.000000
+      fadeInDuration: 0.600000
   ScriptTypes:
     -
       {}
